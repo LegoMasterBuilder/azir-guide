@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat, "Times New Roman", Times, serif;
+}
+
+header {
+  font-size: 28px;
+  padding: 15px;
+  padding-left: 45px;
+  background-color: #202022;
+  color: #c6ccd8;
+  font-weight: 700;
+}
+
+nav ul li {
+  display: inline;
+  font-family: Montserrat, "Times New Roman", Times, serif;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.nav-container {
+  margin: auto;
+  background-color: #85a1c1;
+  padding: 15px 0px;
+}
+
+#showcase {
+  background-image: url(../images/azir-warring-kingdoms.jpg);
+  min-height: 300px;
+  width: 100%;
+  border: 1px black solid;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+#showcase h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: italic;
+  vertical-align: middle;
+  padding-top: 100px;
+  font-size: 50px;
+  opacity: 0.7;
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  border: 1px black solid;
+  margin-bottom: 20px;
+  background-color: #3f4d63;
+}
+
+section {
+  background-color: #202022;
+  padding: 10px 0px;
+  width: 85%;
+  float: left;
+}
+
+aside {
+  width: 15%;
+  float: right;
+  /* border: 1px black solid; */
+}
+
+.clr {
+  clear: both;
+}
+
+footer {
+  color: red;
+}
